@@ -1,4 +1,4 @@
-# Log Tampering
+# 🪟 Log Tampering
 
 delete all logs, selectively modify/delete specific entries: usetool **wevtutil.**
 

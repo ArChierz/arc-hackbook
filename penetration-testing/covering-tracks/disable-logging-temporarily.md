@@ -1,4 +1,4 @@
-# Disable Logging Temporarily
+# 🖥️ Disable Logging Temporarily
 
 ```
 net stop EventLog # while conducting activities
