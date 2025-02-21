@@ -7,7 +7,7 @@ Two types:&#x20;
 * Active Banner Grabbing: crafted packet sent to remote OS, the response is noted and compared to db to determine the OS.&#x20;
 * Passive Banner Grabbing: Banner grabbing from error messages, sniffing the network traffic, and banner grabbing from page extensions.
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
