@@ -31,7 +31,7 @@ x         # list available attack options
 
 Press `1` to start a DHCP Starvation attack
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 now Yersinia start sending DHCP packets to the network adapter and all active machines in the local network. After some time, press `q` to stop the attack and terminate **Yersinia**. Switch to **Wireshark** and observe the huge number of captured DHCP packets.
 

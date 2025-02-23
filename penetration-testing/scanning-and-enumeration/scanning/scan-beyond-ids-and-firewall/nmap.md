@@ -1,5 +1,44 @@
 # nmap
 
+Firewalls and IDSs are intended to prevent port scanning tools such as Nmap, from receiving a precise measure of significant data of the frameworks that they are scanning. However, these prevention measures can be easily overcome. Nmap has numerous features that were created specifically to bypass these protections. It has the ability to issue a mapping of a system framework, through which you can view a substantial amount of information, form OS renditions to open ports. Firewalls and interruption recognition frameworks are made to keep Nmap and other applications from obtaining that data.
+
+## Overview of Firewalls Evasion Techniques
+
+A firewall operates on a predefined set of rules. Using extensive knowledge and skill, an attacker can bypass the firewall by employing various bypassing techniques. Using these techniques, the attacker tricks the firewall to not filter the malicious traffic that he/she generates.
+
+Following are some firewall bypassing techniques;
+
+* Port Scanning
+* Firewalking
+* Banner Grabbing
+* IP Address Spoofing
+* Source Routing
+* Tiny Fragments
+* Using an IP Address in Place of URL
+* Using Anonymous Website Surfing Sites
+* Using a Proxy Server
+* ICMP Tunneling
+* ACK Tunneling
+* HTTP Tunneling
+* SSH Tunneling
+* DNS Tunneling
+* Through External Systems
+* Through MITM Attack
+* Through Content
+* Through XSS Attack
+
+***
+
+## Ping Sweep Scan
+
+Discover the live machines in the network.
+
+```
+nmap -sP [network range/CIDR]
+```
+
+***
+
 ## Packet Fragmentation
 
 Packet fragmentation refers to split probe packet into several smaller packet whilesending it to a network..
@@ -46,6 +85,16 @@ MAC Address spoofing technique involves spoofing a MAC address with the MACaddre
 
 ```
 nmap -sT -Pn --spoof-mac 0 [target host]
+```
+
+***
+
+## Zombie Scan
+
+Can choose any of the IPs that are obtained in the ping sweep scan.
+
+```
+nmap -sI [IP zombie] [IP target]
 ```
 
 ***

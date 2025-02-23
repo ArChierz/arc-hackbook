@@ -122,6 +122,22 @@ nmap -A [target host]*
 
 ***
 
+## Full Scan
+
+Perform this technique to gather information about the open ports and services running on the machine hosting the target website. Displaying the open ports and services running on the machine hosting the target website. Can observe that the target machine name, NetBIOS name, DNS name, MAC address, OS, and other information is displayed.
+
+```
+nmap -T4 -A -v [target]
+```
+
+> -T4: setting time template (0-5)
+>
+> -A: aggressive scan
+>
+> -v: enable verbose
+
+***
+
 
 
 
