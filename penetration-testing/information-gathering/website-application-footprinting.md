@@ -192,3 +192,19 @@ Try to analyze and confirm the vulnerability that may exist with CRITICAL sign t
 python3 pwnxss.py -u [target]
 ```
 
+***
+
+## Enumerate WordPress with WPScan
+
+Metasploit Framework is a penetration testing toolkit, exploit development platform, and research tool that includes hundreds of working remote exploits for a variety of platforms. It helps pen testers to verify vulnerabilities and manage security assessments.
+
+Perform multiple attacks on a vulnerable PHP website (WordPress) in an attempt to gain sensitive information such as usernames and passwords. How to use WPScan tool to enumerate usernames on a WordPress website, and how to crack passwords by performing a dictionary attack using an msf auxiliary module.
+
+```
+wpscan --api-token [token] --url [full url] --enumerate u
+```
+
+***
+
+
+
