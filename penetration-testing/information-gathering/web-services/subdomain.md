@@ -58,3 +58,14 @@ echo [domain] | hakrawler -subs
 
 {% embed url="https://github.com/lc/gau" %}
 
+### Gather Subdomain from crt.sh
+
+reference: [https://gist.github.com/1N3/dec432d14fec84e09733f39669ebca0f](https://gist.github.com/1N3/dec432d14fec84e09733f39669ebca0f)&#x20;
+
+refinement:
+
+```
+echo "Enter the domain name"
+read TARGET
+curl -fsSL "https://crt.sh/?q=%25.$TARGET" | pup "td text{}" | grep "$TARGET" | sort -u > "$TARGET-crt.txt"
+```
