@@ -116,3 +116,5 @@
     * [Device Driver Monitoring](malware-analysis/dynamic-malware-analysis/device-driver-monitoring.md)
     * [DNS Monitoring](malware-analysis/dynamic-malware-analysis/dns-monitoring.md)
 * [📚 Resources](resources.md)
+* [🎁 HackTheBox Write Up](hackthebox-write-up/README.md)
+  * [Conversor](hackthebox-write-up/conversor.md)
