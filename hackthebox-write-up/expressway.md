@@ -196,7 +196,15 @@ I created a new file named **test.sh** with source code from the github below to
 
 <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
+## Clearing Logs
 
+to clear the logs in linux machine, simply use the history command.
+
+```
+history -c
+```
+
+This only effective if the .bash\_history set to **/dev/null.**
 
 ## Remediation
 
