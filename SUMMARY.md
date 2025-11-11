@@ -119,3 +119,4 @@
 * [🎁 HackTheBox Write Up](hackthebox-write-up/README.md)
   * [Conversor](hackthebox-write-up/conversor.md)
   * [Expressway](hackthebox-write-up/expressway.md)
+  * [CodePartTwo](hackthebox-write-up/codeparttwo.md)
