@@ -8,7 +8,7 @@
 
 ## Introduction
 
-
+Given a network that run a Python web server that serve a purpose as a Javascript to Python code converter. The web app has a vulnerability in its module and as a result the attacker can gain access to their server by exploit it with some malicious code. The DB stored password with a weak cryptography algorithm allows attacker to cracked the password and gain further privilege. A misconfiguration identified in the user capability within sudoers that allows attacker to run arbitrary command in a config as root user and escalate the privilege as **root**.
 
 ## Information Gathering
 
